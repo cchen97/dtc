@@ -10,3 +10,17 @@ div{
 html {
     scroll-behavior: smooth;
 }
+
+a{
+    color: brown;
+}
+
+#pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
+    display: none;
+} 
+
+@media screen and (min-width: 850px) {
+    #pic1, #pic2, #pic3, #pic4, #pic5, #pic6 {
+        display: block;
+    } 
+}
