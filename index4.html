@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Manjia Chen">
+    <meta name="description" content="Website for Dongtingchun">
+    <meta name="keywords" content="Local businesses, Restraunt">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
+    <title>Dongtingchun</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"> <img src="img/logo.png" width="150" height="150" class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#hello">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#ourfood">Our Food</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav2">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#sangabriel">San Gabriel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lasvegas">Las Vegas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sandiego">San Diego</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pasadena">Pasadena</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#redmond">Redmond, Seattle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#edmonds">Edmonds, Seattle</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row" id="sangabriel">
+                <div class="col" id="pic1">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <img class="img-fluid" src="img/sangabriel.jpg" alt="Card image cap">
+                        <p class="lead">Dong Ting Chun</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                    <div class="container">
+                        <h1>San Gabriel</h1>
+                        <p class="lead">140 W Valley Blvd, San Gabriel, CA 91776</p>
+                        <p class="lead"><i class="fas fa-location-arrow"></i><a href="https://goo.gl/maps/XajALoyuHx12"> Get Directions</a></p>
+                        <p class="lead"><i class="fas fa-phone"></i> (626) 288-5918</p>
+                        <p class="lead"><i class="far fa-clock"></i> OPEN EVERY DAY / 11:00 AM - 09:30 PM</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" id="lasvegas">
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <div class="container">
+                            <h1>Las Vegas</h1>
+                            <p class="lead">4850 W Flamingo Rd Ste 34-34 Las Vegas, NV 89103</p>
+                            <p class="lead"><i class="fas fa-location-arrow"></i><a href="https://goo.gl/maps/TTCosQV3w5P2"> Get Directions</a></p>
+                            <p class="lead"><i class="fas fa-phone"></i> (702) 387-78888</p>
+                            <p class="lead"><i class="far fa-clock"></i> OPEN EVERY DAY / 11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="pic2">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <img class="img-fluid" src="img/lasvegas.jpg" alt="Card image cap">
+                            <p class="lead">Dong Ting Chu</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" id="sandiego">
+                <div class="col" id="pic3">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <img class="img-fluid" src="img/sandiego.jpg" alt="Card image cap">
+                        <p class="lead">Village Kitchen</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <div class="container">
+                            <h1>San Diego</h1>
+                            <p class="lead">4720 Clairemont Mesa Blvd, San Diego, CA 92117</p>
+                            <p class="lead"><i class="fas fa-location-arrow"></i><a href="https://goo.gl/maps/Ed3JjfR7yy72"> Get Directions</a></p>
+                            <p class="lead"><i class="fas fa-phone"></i> (858) 581-1585</p>
+                            <p class="lead"><i class="far fa-clock"></i> Mon - Fri 11:30 AM - 03:00 PM / 05:00 PM - 09:00 PM</p>
+                            <p class="lead"><i class="far fa-clock"></i> Sat - Sun 11:30 AM - 09:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" id="pasadena">
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <div class="container">
+                            <h1>Pasadena</h1>
+                            <p class="lead">55 W Green St, Pasadena, CA 91105</p>
+                            <p class="lead"><i class="fas fa-location-arrow"></i><a href="https://goo.gl/maps/Z8Mbk4fkVfA2"> Get Directions</a></p>
+                            <p class="lead"><i class="fas fa-phone"></i> (626) 639-3391</p>
+                            <p class="lead"><i class="far fa-clock"></i> OPEN EVERY DAY / 11:30 AM - 10:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="pic4">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <img class="img-fluid" src="img/pasadena.jpg" alt="Card image cap">
+                        <p class="lead">Chong Qing Yao Mei Hot Pot</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row" id="redmond">
+                <div class="col" id="pic5">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <img class="img-fluid" src="img/redmond.jpg" alt="Card image cap">
+                        <p class="lead">Dong Ting Chun</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <div class="container">
+                            <h1>Redmond, Seattle</h1>
+                            <p class="lead">7425 166th Ave NE Suite C230, Redmond, WA 98052</p>
+                            <p class="lead"><i class="fas fa-location-arrow"></i><a href="https://goo.gl/maps/4grkMuru2UC2"> Get Directions</a></p>
+                            <p class="lead"><i class="fas fa-phone"></i> (425) 882-7311</p>
+                            <p class="lead"><i class="far fa-clock"></i> Mon - Fri 11:00 AM - 03:00 PM / 05:00 PM - 09:00 PM</p>
+                            <p class="lead"><i class="far fa-clock"></i> Sat - Sun 11:00 AM - 09:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row" id="edmonds">
+                <div class="col">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <div class="container">
+                            <h1>Edmonds, Seattle</h1>
+                            <p class="lead">22001 WA-99 #400, Edmonds, WA 98026</p>
+                            <p class="lead"><i class="fas fa-location-arrow"></i><a href="https://goo.gl/maps/7KuYkMyVXto"> Get Directions</a></p>
+                            <p class="lead"><i class="fas fa-phone"></i> (425) 616-5616</p>
+                            <p class="lead"><i class="far fa-clock"></i>  OPEN EVERY DAY / 11:00 AM - 02:30 PM / 05:00 PM - 09:30 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" id="pic6">
+                    <div class="jumbotron jumbotron-fluid" style="background-color: #FFFFFF;">
+                        <img class="img-fluid" src="img/DongTingFish.png" alt="Card image cap">
+                        <p class="lead">Dong Ting Chun</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+<script>
+$('.carousel').carousel({
+  interval: 3000
+})
+</script>
+<script src="https://use.typekit.net/bkt6ydm.js"></script>
+<script>
+    try {
+        Typekit.load({
+            async: true
+        });
+    } catch (e) {}
+</script>
+</body>
+</html>
